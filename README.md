@@ -1,4 +1,4 @@
-**Note:** This project updated version is on my  [GitLab Repo](https://gitlab.com/emailsyed245/cypress_cucumber_proj)
+**Note:** This project has been imported from my GitLab repo and its updated version is on my  [GitLab Repo](https://gitlab.com/emailsyed245/cypress_cucumber_proj). Due to security issues on GitHub, I'll be moving all my repos to Gitlab.
 
 # Installations
 - **Note:** [Node.js](https://www.nodejs.org/) Recommend using v16.16.1
@@ -35,11 +35,9 @@ npx cypress-tags run -e TAGS="@cart" -b chrome --headed
 npx cypress-tags run -e TAGS="@cart" --env url="http://qaclickacademy.com/practice.php" -b chrome --headed
 ```
 
-
-```
 - **Running tests in Docker** :
 ```sh
-BASE_URL=http://<user>:<password>@localhost:8080/ npm run test:docker -- --cucumberOpts.tagExpression="@smoke"
+ npm run test:docker
 ```
 ## Reporting
  - **Note :** There are two types of reporting configured in this project (1)- Mochawesome Reports (2)- Cucumber Reports
@@ -59,6 +57,5 @@ OR running explicity following command after test run
  > node ./reports/cucumber-html-report.js
 ```
 
-- **JUnit Reports:** ((TBC)) An XML JUnit report gets automatically generated at ./front_end/reports/JUnitReports/*.xml location.
-This can be fed into CI tool or in to different other plugins.
+- **JUnit Reports:** ((TBC)) An XML JUnit report gets automatically generated at ./front_end/reports/JUnitReports/*.xml location. This can be fed into CI tool or in to different other plugins.
   
