@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.cid
+
+# Dependency directory
+node_modules
+mochawesome-report
+reports
+cypress/screenshots
+cypress/videos
+
+# Optional npm cache directory
+.npm
+
+
+# Ignoring reporting files
+allure-report
+reports
+html
+
+# Optional files
+package-lock.json
+.idea
+.DS_Store
